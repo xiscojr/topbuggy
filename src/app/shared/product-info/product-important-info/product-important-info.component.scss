@@ -1,0 +1,21 @@
+@import '../../../../styles/scss/theme.scss';
+
+.important-info {
+    padding-top: 30px;
+    padding-bottom: 28px;
+
+    ul {
+        padding-left: 1.25rem;
+        list-style: none;
+
+        li::before {
+            color: $maincolor;
+            content: "\2022";
+            font-size: 1.25rem;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+    }
+}

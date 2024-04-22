@@ -1,0 +1,135 @@
+@import '../../../../styles/scss/theme.scss';
+
+.hero {
+    // position: relative;
+    // height: 688px;
+    // background-position: center;
+    // background: linear-gradient(105deg, rgb(12, 92, 117) 13%, rgb(12, 92, 117) 13%, rgb(12, 92, 117) 47%, rgb(167, 209, 225) 47%, rgb(167, 209, 225) 47%, rgb(167, 209, 225) 49%, rgba(27, 158, 178, 0) 49%, rgb(27, 158, 178) 48%, rgb(27, 158, 178) 50%, rgba(27, 158, 178, 0) 50%), url('../../../../assets/images/Conduciendo.png');
+    // background-blend-mode: multiply;
+    position: relative;
+    height: 745px;
+    background: linear-gradient(360deg, rgb(0 0 0 / 50%) 100%, rgb(0, 0, 0) 50%), url('../../../../assets/images/hero-background.webp');
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    // background-position: top;
+    background-size: cover;
+    overflow-x: clip;
+
+    .hero-container{
+        overflow-x: clip;
+    }
+
+    .hero-content {
+        padding-top: 217px;
+        max-width: 640px;
+        position: relative;
+
+        .title {
+            font-size: 50px;
+            color: #F2C77C;
+            margin-bottom: -15px;
+        }
+
+        .title2 {
+            font-size: 80px;
+            width: 100%;
+        }
+
+        @media(max-width:762px) {
+            .title {
+                font-size: 45px;
+            }
+
+            .title2 {
+                font-size: 60px;
+                line-height: 66px;
+            }
+        }
+
+        @media(max-width:560px) {
+            .title {
+                font-size: 10vw;
+            }
+
+            .title2 {
+                font-size: 11vw;
+            }
+        }
+
+        p {
+            font-size: 16px;
+            color: $white;
+            margin-bottom: 37px;
+            width: 68%;
+            font-family: 'Fira Sans', sans-serif;
+            font-weight: normal;
+            line-height: 22px;
+            font-style: normal;
+            text-align: left;
+        }
+
+        span {
+            font-size: 18px;
+            color: $white;
+            margin-bottom: 37px;
+            width: 60%;
+        }
+
+        svg {
+            width: 100%;
+        }
+
+        .button-reserve {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url("/assets/images/Pincelada.svg");
+            background-color: transparent;
+            background-repeat: no-repeat;
+            padding: 1rem;
+            height: 3rem;
+            width: 17rem;
+            max-width: unset;
+            font-weight: bold;
+            font-style: italic;
+            text-transform: uppercase;
+
+            span {
+                margin-bottom: 11px;
+                color: $black;
+                font-family: $primary-font;
+            }
+        }
+    }
+
+    .barra-inferior{
+        bottom: -36px;
+        filter: drop-shadow(0px 7px 2.5px rgba(0,0,0,0.5 ));
+        @media(min-width:1990px) {
+            width: 100%;
+        }
+    }
+}
+
+// Estilo del texto transparente con bordes blancos
+.transparent-text {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: $white;
+}
+
+@media (max-width:361px) {
+    .hero-content {
+        max-width: 355px;
+        padding-right:25px;
+        margin-right: -100px;
+        padding-top: 260px;
+        
+    }
+
+    p {
+        line-height: 22px !important;
+    }
+}
+

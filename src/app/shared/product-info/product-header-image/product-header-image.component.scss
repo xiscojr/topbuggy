@@ -1,0 +1,16 @@
+@import '../../../../styles/scss/theme.scss';
+
+.image-shadow{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(33,40,50,0.4 );
+}
+
+img {
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+}

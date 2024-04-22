@@ -1,0 +1,226 @@
+{
+    "header": {
+        "home": "HOME",
+        "contact": "CONTACTO",
+        "book": "PRODUCTOS"
+    },
+    "footer": {
+        "home": "HOME",
+        "contact": "CONTACTO",
+        "follow": "SÍGUENOS",
+        "siteMap": "MAPA WEB",
+        "privacy": "Política de privacidad",
+        "conditions": "Términos y condiciones",
+        "cookies": "Política de cookies"
+    },
+    "hero": {
+        "title": "DESCUBRE LA AVENTURA",
+        "title2": "CON TOP BUGGY",
+        "subtitle": "Descubre Tenerife de una manera única con nuestros emocionantes paseos en buggy. Explora rutas llenas de aventura y diversión que se adaptan a tus preferencias. Disfruta de una excursión al Teide  un paseo por la costa, o un mirador al atardecer. Elige entre nuestros variados tours. ¡Reserva ya tu experiencia de paseo en buggy en Tenerife!",
+        "book": "RESERVA YA"
+    },
+    "products": {
+        "title": "NUESTROS TOURS",
+        "subtitle": "Disfruta el encanto de Tenerife a través de nuestras rutas en Buggy, con la compañía de nuestros guías locales expertos."
+    },
+    "productCard": {
+        "since": "Desde",
+        "reviews": "opiniones",
+        "booking": "Reservar",
+        "riders": " pax"
+    },
+    "info": {
+        "mainTitle": "Información importante a tener en cuenta",
+        "title1": "No Olvides",
+        "subtitle1": "Llevar ropa de abrigo aunque la compañía tendrá uno para su uso. Sería recomendable llevar ropa y calzado cómodo y cerrado para realizar cualquiera de nuestros tours. ",
+        "title2": "Recuerda",
+        "subtitle2": "Si vas a manejar el buggy debes llevar el carnet de conducir en vigor el día de la excursión, ten en cuenta que en caso de no llevarlo no podría realizarse la actividad. ",
+        "title3": "Cuida del medio ambiente",
+        "subtitle3": "Al estar haciendo una ruta por entornos naturales tenemos que ser conscientes del impacto que podemos generar y debemos procurar dejar el entorno tal cual lo encontramos."
+    },
+    "cta": {
+        "title": "LA EXPERIENCIA TOP BUGGY",
+        "subtitle": "Los paisajes de Tenerife son verdaderamente impresionantes, desde las playas de arena dorada hasta las majestuosas cumbres del Parque Nacional del Teide, que alberga el pico más alto de España.",
+        "book": "RESERVAR",
+        "riders": " conductores",
+        "time": " horas"
+    },
+    "about": {
+        "title": "SOBRE NOSOTROS",
+        "subtitle": "Tenerife, con una historia fascinante que se remonta a siglos atrás, se ha convertido en un tesoro turístico de renombre. Tenerife no solo es un destino turístico, sino un lugar lleno de historia, cultura y belleza natural que garantiza experiencias inolvidables para aquellos que tienen la fortuna de explorar sus maravillas",
+        "paragraph1": "Somos una empresa familiar arraigada en el corazón de Tenerife, dedicada a ofrecer emocionantes experiencias para explorar la isla. Descubre Tenerife a través de nuestras emocionantes rutas y paseos en buggies diseñados para dos y cuatro ocupantes. Nos apasiona compartir los aspectos más destacados de nuestro entorno, brindándote una experiencia inolvidable mientras exploras lugares impresionantes en la isla. Sumérgete en la belleza de sus paisajes y aprovecha el agradable clima que este destino único tiene para ofrecer. ¡Explora el sur de Tenerife con nosotros y vive momentos memorables!",
+        "paragraph2": "Desde Top Buggy descubrirás el encanto de la isla de Tenerife. Los paisajes de Tenerife son verdaderamente impresionantes, desde las playas de arena dorada hasta las majestuosas cumbres del Parque Nacional del Teide, que alberga el pico más alto de España.",
+        "contact": "Contáctanos"
+    },
+    "reviewcard": {
+        "info": "Opinión de un usuario de ",
+        "read": "Leer más"
+    },
+    "reviews": {
+        "title": "REVIEWS",
+        "subtitle": "por nuestros exploradores"
+    },
+    "faq": {
+        "title": "PREGUNTAS FRECUENTES",
+        "subtitle": "Estas son las preguntas más habituales de nuestros clientes",
+        "question1": {
+            "title": "¿Cuánto dura el Tour en buggy?",
+            "answer": "Nuestro tour en buggy por el Teide tiene una duración aproximada de 4 horas. Tiempo suficiente para vivir la emoción de conducir un buggy, y de disfrutar y explorar un entorno impresionante."
+        },
+        "question2": {
+            "title": "¿Cuál es la política de cancelación de Top Buggy Adventure?",
+            "answer": "En Top Buggy Adventure, sabemos que tus planes podrían cambiar. Por ello, la cancelación o cambios son gratuitos hasta 48 horas de antelación y recibir un reembolso completo."
+        },
+        "question3": {
+            "title": "¿Cuál es la edad mínima para participar en nuestras excursiones en buggy?",
+            "answer": "La edad mínima para conducir un buggy es de 21 años y se requiere una licencia de conducir válida de tipo B con un mínimo de 3 años de antigüedad. Si vas a participar en nuestra excursión como acompañante, la edad mínima es de 7 años."
+        },
+        "question4": {
+            "title": "¿La recogida y el transporte de regreso al hotel están incluidos en el precio?",
+            "answer": "Si, el precio incluye recogida y transporte de regreso a los hoteles de la Zona Sur de la isla, aunque es opcional, los clientes pueden dirigirse al lugar de punto de encuentro, siempre que lleguen con un mínimo de 30 minutos antes de la hora de inicio del Tour."
+        }
+    },
+    "product": {
+        "price": "PRECIO",
+        "whyUs": "POR QUÉ ELEGIR ESTE TOUR",
+        "description": "DESCRIPCIÓN",
+        "info": {
+            "title": "INFORMACIÓN GENERAL",
+            "availability": "Disponibilidad",
+            "duration": "Duración",
+            "languages": "Idiomas",
+            "includes": "Incluye",
+            "notIncludes": "No incluye"
+        },
+        "additionalInfo": {
+            "title": "Información adicional"
+        },
+        "highlightsComponents": {
+            "hours": " HORAS",
+            "tour": "Recorrido por carretera",
+            "single": "Buggy individual",
+            "double": "Buggy 2pax"
+        },
+        "includedComponent": {
+            "yes": "Incluido",
+            "no": "No incluido"
+        },
+        "carryInfo": "INFORMACIÓN A TENER EN CUENTA"
+    },
+    "contact": {
+        "title": "CONTÁCTANOS",
+        "subtitle": "No dudes en consultarnos cualquier duda que tengas. Nuestro equipo estará encantado de ayudarte en lo que necesites y responder a todas tus inquietudes.",
+        "connect": "CONECTA CON NOSOTROS",
+        "adress": "Dirección",
+        "follow": "SÍGUENOS",
+        "form": {
+            "name": "Nombre",
+            "phone": "Teléfono",
+            "email": "Email",
+            "message": "Mensaje",
+            "privacy": "Acepto que estos datos deben almacenarse y procesarse con el fin de establecer contacto. Soy consciente de que puedo revocar mi consentimiento en cualquier momento.",
+            "send": "ENVIAR",
+            "success": "Mensaje enviado!",
+            "validation": "El campo es obligatorio y debe ser válido."
+        }
+    },
+    "legal": {
+        "conditions": "Términos y condiciones",
+        "modified": "Este documento fue modificado por última vez el ",
+        "date": "1 de mayo de 2018",
+        "read": "Por favor, lea estos términos de servicio antes de utilizar este sitio web, que es propiedad y está operada por Touradvisor DMC SLU. Este documento especifica los términos y condiciones legalmente vinculantes que conlleva el uso de este sitio web.",
+        "use": "Al usar o acceder a este sitio de cualquier manera, ver o navegar por su contenido, o agregar su propio contenido al sitio, usted acepta estar sujeto a estos términos de servicio.",
+        "property": "Propiedad intelectual",
+        "webcontent": "Este sitio web y todo su contenido original son propiedad exclusiva del propietario y operador del mismo y están, por tanto, plenamente protegidos por los derechos de autor internacionales adecuados y otras leyes de derechos de propiedad intelectual. Todo el contenido de terceros es propiedad de los mismos y su uso y protección se rige por los términos y condiciones de los mismos.",
+        "termination": "Terminación",
+        "right": "Nos reservamos el derecho de suspender el acceso a este sitio web sin previo aviso.",
+        "external": "Enlaces a otros sitios web",
+        "links": "Nuestro sitio contiene una serie de enlaces a otros sitios web y recursos en línea que no son propiedad o están controlados por nosotros. No tenemos ningún control sobre, y por lo tanto no podemos asumir responsabilidad por, el contenido o las prácticas en general de cualquiera de estos sitios o servicios de terceros. Por lo tanto, le recomendamos que lea la totalidad de los términos y condiciones y la política de privacidad de cualquier sitio que usted visita como resultado de seguir un enlace que se publica en nuestro sitio.",
+        "legislation": "Legislación",
+        "agreement": "El presente acuerdo se regirá de acuerdo con la legislación aplicable en España.",
+        "consent": "Consentimiento",
+        "accept": "Al utilizar nuestro sitio, usted acepta los términos y condiciones de uso de nuestro sitio web.",
+        "modification": "Modificaciones",
+        "reserved": "Nos reservamos el derecho de modificar las presentes condiciones de servicio en cualquier momento. Lo haremos mediante la publicación y el reclamo de su atención sobre los términos actualizados en el sitio. Su decisión de continuar la visita y hacer uso del sitio después de haber hecho estos cambios constituye su aceptación formal de las nuevas condiciones de servicio. Por lo tanto, le pedimos que revise este documento de forma ocasional. En caso de no estar de acuerdo con alguna disposición o de cualquier cambio que hagamos en este documento, le pedimos y recomendamos que no utilice o continue accediendo al sitio.",
+        "contact": "Cómo ponerse en contacto con nosotros",
+        "questions": "Si tiene alguna pregunta sobre estos términos y condiciones de uso, puede ponerse en contacto con nosotros a través de los mecanismos disponibles en nuestra sección de contacto."
+    },
+    "cookies": {
+        "policy": "Política de cookies",
+        "modified": "Este documento fue modificado por última vez el ",
+        "date": "1 de mayo de 2018",
+        "description": "Cookie es un fichero que se descarga en su ordenador al acceder a determinadas páginas web. Las cookies permiten a una página web, entre otras cosas, almacenar y recuperar información sobre los hábitos de navegación de un usuario o de su equipo y, dependiendo de la información que contengan y de la forma en que utilice su equipo, pueden utilizarse para reconocer al usuario. El navegador del usuario memoriza cookies en el disco duro solamente durante la sesión actual ocupando un espacio de memoria mínimo y no perjudicando al ordenador. Las cookies no contienen ninguna clase de información personal específica, y la mayoría de las mismas se borran del disco duro al finalizar la sesión de navegador (las denominadas cookies de sesión).",
+        "browser": "La mayoría de los navegadores aceptan las cookies como estándar y, con independencia de las mismas, permiten o impiden en los ajustes de seguridad las cookies temporales o memorizadas.",
+        "acceptance": "Sin su expreso consentimiento (mediante la activación de las cookies en su navegador) no se enlazarán en las cookies los datos memorizados con sus datos personales proporcionados en el momento del registro o la compra.",
+        "types": "Tipos de cookies",
+        "technical": "Cookies técnicas:",
+        "description1": " Son aquéllas que permiten al usuario la navegación a través de una página web, plataforma o aplicación y la utilización de las diferentes opciones o servicios que en ella existan como, por ejemplo, controlar el tráfico y la comunicación de datos, identificar la sesión, acceder a partes de acceso restringido, recordar los elementos que integran un pedido, realizar el proceso de compra de un pedido, realizar la solicitud de inscripción o participación en un evento, utilizar elementos de seguridad durante la navegación, almacenar contenidos para la difusión de videos o sonido o compartir contenidos a través de redes sociales.",
+        "personalization": "Cookies de personalización:",
+        "description2": "Son aquéllas que permiten al usuario acceder al servicio con algunas características de carácter general, predefinidas en función de una serie de criterios en el terminal del usuario como, por ejemplo, serían el idioma, el tipo de navegador a través del cual accede al servicio, la configuración regional desde donde accede al servicio, etc.",
+        "analysis": "Cookies de análisis:",
+        "description3": "Son aquéllas que, bien tratadas por nosotros, bien por terceros, nos permiten cuantificar el número de usuarios y así realizar la medición y análisis estadístico de la utilización que hacen los usuarios del servicio ofertado. Para ello se analiza su navegación en nuestra página web con el fin de mejorar la oferta de productos o servicios que le ofrecemos.",
+        "advertising": "Cookies publicitarias:",
+        "description4": "Son aquéllas que, bien tratadas por nosotros, bien por terceros, nos permiten gestionar de la forma más eficaz posible la oferta de los espacios publicitarios que hay en la página web, adecuando el contenido del anuncio al contenido del servicio solicitado o al uso que realice de nuestra página web. Para ello podemos analizar sus hábitos de navegación en Internet y podemos mostrarle publicidad relacionada con su perfil de navegación.",
+        "behavioral": "Cookies de publicidad comportamental:",
+        "description5": "Son aquéllas que permiten la gestión, de la forma más eficaz posible, de los espacios publicitarios que, en su caso, el editor haya incluido en una página web, aplicación o plataforma desde la que presta el servicio solicitado. Estas cookies almacenan información del comportamiento de los  usuarios obtenida a través de la observación continuada de sus hábitos de navegación, lo que permite desarrollar un perfil específico para mostrar publicidad en función del mismo.",
+        "thirdparty": "Cookies de terceros:",
+        "description6": "La web puede utilizar servicios de terceros que, por cuenta de ésta web, recopilaran información, con fines estadísticos, de uso del sitio por parte del usuario y para la prestacion de otros servicios relacionados con la actividad de este sitio web y otros servicios de Internet.",
+        "used": "Cookies de terceros usadas",
+        "analytics": "En particular, este sitio web utiliza Google Analytics, un servicio analítico de web prestado por Google, Inc., con domicilio en los Estados Unidos, con sede central en 1600 Amphitheatre Parkway, Mountain View, 94043 de California. Para la prestación de estos servicios, éstos utilizan cookies que recopilan la información, incluida la dirección IP del usuario, que será transmitida, tratada y almacenada por Google en los términos fijados en su web, incluyendo la posible transmisión de dicha información a terceros por razones de exigencia legal o cuando dichos terceros procesen la información por cuenta de Google.",
+        "consent": "Consentimiento",
+        "agree": "El usuario acepta expresamente, por la utilización de este sitio, el tratamiento de la información recabada en la forma y con los fines anteriormente mencionados. Y, asimismo, reconoce conocer la posibilidad de rechazar el tratamiento de tales datos o información rechazando el uso de cookies mediante la selección de la configuración apropiada a tal fin en su navegador, si bien esta opción de bloqueo de cookies en su navegador puede no permitirle el uso pleno de todas las funcionalidades del sitio web.",
+        "management": "Gestión de cookies",
+        "permit": "Puede usted permitir, bloquear o eliminar las cookies instaladas en su equipo mediante la configuración de las opciones del navegador instalado en su ordenador:",
+        "modifications": "Modificaciones",
+        "update": "Si decidimos cambiar nuestra política de cookies actualizaremos la fecha de modificación de este documento.",
+        "contact": "Cómo ponerse en contacto con nosotros",
+        "questions": "Si tiene alguna pregunta sobre esta política de cookies, puede ponerse en contacto con nosotros a través de los mecanismos disponibles en nuestra sección de contacto."
+    },
+    "privacy": {
+        "policy": "Política de privacidad",
+        "modified": "Este documento fue modificado por última vez el ",
+        "date": "1 de mayo de 2018",
+        "personal": "Por medio de este sitio web se recogen datos de carácter personal necesarios para la gestión y mantenimiento de algunos de nuestros servicios. Sin perjuicio de las finalidades que en cada caso se indiquen, dicha información será guardada y gestionada con su debida confidencialidad, aplicando las medidas de seguridad informática establecidas en la legislación aplicable para impedir el acceso o uso indebido de sus datos, su manipulación, deterioro o pérdida. En cualquier momento puede usted ejercer sus derechos de acceso, rectificación o cancelación en relación con dichos datos, dirigiendo su solicitud a la dirección del titular de los ficheros. Puede encontrar formularios para el ejercicio de sus derechos en el sitio web de la ",
+        "protection": "Agencia de protección de datos.",
+        "file": "Sus datos se incorporarán a un fichero inscrito en el Registro General del Protección de Datos, responsabilidad de Touradvisor DMC SLU, , con domicilio en Ctra. valldemossa km7.4 – Parc Bit, Ed. Disset, pl",
+        "data": "Sus datos serán usados para ponernos en contacto con usted, si así lo solicita, o para efectuar la petición de información o de reserva de uno de los servicios ofrecidos. Este proceso puede implicar la cesión de sus datos a terceros directamente relacionados con la prestación del servicio. Esta cesión de datos se producirá únicamente cuando sea imprescindible.",
+        "whatinfo": "¿Qué información recopilamos?",
+        "userinfo": "Recopilamos información sobre usted cuando se registra en nuestro sitio o se suscribe a nuestro boletín. Al realizar un pedido o registrarse en nuestro sitio, si es pertinente, se le puede pedir que introduzca su nombre, dirección de correo electrónico o número de teléfono. Es posible, sin embargo, visitar nuestro sitio de forma anónima.",
+        "use": "¿Para qué utilizamos su información?",
+        "infostatement": "La información que obtenemos de usted puede ser utilizada de una de las siguientes maneras:",
+        "title1": "To personalize your experience:",
+        "explanation1": "Su información nos ayuda a responder mejor a sus necesidades individuales.",
+        "title2": "Para mejorar nuestro sitio web:",
+        "explanation2": "Mejoramos continuamente la oferta de nuestro sitio web basándonos en la información y la retroalimentación que recibimos de usted.",
+        "title3": "Para mejorar el servicio al cliente:",
+        "explanation3": "Su información nos ayuda a responder más eficazmente a las solicitudes de atención al cliente y las solicitudes de asistencia.",
+        "title4": "Para enviar correos electrónicos periódicos.",
+        "explanation4": "La dirección de correo electrónico que usted proporciona para el procesamiento de pedidos se puede utilizar para enviar información y las actualizaciones correspondientes a su pedido, además de recibir información de noticias de la empresa, actualizaciones, producto o servicio relacionado ocasionalmente, etc.",
+        "note": "Nota: Si en algún momento desea dejar de recibir futuros correos electrónicos, las instrucciones para darse de baja se incluyen en la parte inferior de cada correo electrónico.",
+        "protect": "¿Cómo protegemos su información?",
+        "security": "De acuerdo con la legislación vigente, implementamos diversas medidas de seguridad para mantener la integridad de su información personal cuando usted introduce, envía o accede a su información personal.",
+        "read": "Lea nuestra ",
+        "cookiepolicy": "política de cookies",
+        "where": ", donde se establece el uso de las mismas en nuestro sitio web.",
+        "disclose": "¿Revelamos información a terceros?",
+        "text": "Nosotros no vendemos, comerciamos con, o transferimos sus datos personales a terceros. Esto no incluye aterceras partes de confianza que nos ayudan en la operación de nuestro sitio web, la gestión de nuestro negocio o a ofrecerle un servicio, siempre que dichas partes se comprometan a mantener la confidencialidad de dicha información. También podemos revelar su información cuando creemos que es necesario para cumplir con la ley, hacer cumplir las políticas de nuestro sitio o para proteger nuestra propiedad, seguridad o derechos, o los de terceros. Sin embargo, la información de su visita que no permita identificarle personalmente puede ser proporcionada a terceros para su comercialización, publicidad u otros usos.",
+        "title5": "Política de privacidad únicamente en línea",
+        "explanation5": "Esta política de privacidad en línea se aplica únicamente a la información recogida a través de nuestra página web y no a la información recogida por otros medios.",
+        "terms": "Términos y condiciones",
+        "visit": "Visite nuestra sección de ",
+        "link": "términos y condiciones",
+        "info": ", donde se establec el uso, las renuncias y las limitaciones de responsabilidad que rigen el uso de nuestro sitio web.",
+        "Modifications": "Modificaciones",
+        "change": "Si decidimos cambiar nuestra política de privacidad actualizaremos la fecha de modificación de este documento.",
+        "contact": "Cómo ponerse en contacto con nosotros",
+        "questions": "Si tiene alguna pregunta sobre esta política de privacidad, puede ponerse en contacto con nosotros a través de los mecanismos disponibles en nuestra sección de contacto."
+    },
+    "Every day": "Todos los días",
+    "Monday": "Lunes",
+    "Tuesday": "Martes",
+    "Wednesday": "Miércoles",
+    "Thursday": "Jueves",
+    "Friday": "Viernes",
+    "Saturday": "Sábado",
+    "Sunday": "Domingo"
+}

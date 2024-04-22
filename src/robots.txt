@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://tenerifebuggies.com/sitemap_index.xml

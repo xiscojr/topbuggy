@@ -1,0 +1,25 @@
+<div class="review-card">
+    <div class="header mb-3">
+        <span class="initial mx-auto">
+            <img class="img-divider" src="../../../assets/images/User.svg" alt="barra separadora">
+
+        </span>
+        <div class="d-flex flex-column">
+            <strong>{{review.name}}</strong>
+            <span class="date">{{formatDate(review.createdAt)}}</span>
+            <span class="channel" *ngIf="review.channel != 'Venntur'">{{ 'reviewcard.info' | translate }}{{review.channel}}</span>
+            <a class="channel" *ngIf="review.channel == 'Venntur'" href="https://venntur.com/es/maker/driveando">{{ 'reviewcard.info' | translate }}{{review.channel}}</a>
+        </div>
+    </div>
+    <div class="title">
+        <strong>{{review.product.name}}</strong>
+    </div>
+    <div class="stars mb-3">
+        <span *ngFor="let star of [].constructor(review.rating)" class="bdb-star-full"></span>
+        <span *ngFor="let star of [].constructor(5-review.rating)" class="bdb-star"></span>
+    </div>
+    <div class="review-content">
+        <span class="comments">{{review.comments}}</span>
+    </div>
+    <a *ngIf="countLines()! > 8 && showViewMore" (click)="setScrollbarClass();showViewMore = false" class="read-more">{{ 'reviewcard.read' | translate }}</a>
+</div>

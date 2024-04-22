@@ -1,0 +1,26 @@
+@import '../../../../styles/scss/theme.scss';
+
+.container{
+
+    padding: 50px;
+    text-align: justify;
+
+    span,strong{
+        color: $maincolor;
+    }
+
+    h2{
+        font-weight: bold;
+        margin-top: 100px;
+        margin-bottom: 30px;
+        color: $maincolor;
+    }
+
+    span{
+        margin-bottom: 1rem;
+    }
+
+    strong {
+        margin-bottom: .5rem;
+    }
+}

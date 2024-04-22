@@ -1,0 +1,53 @@
+<div class="general-info">
+    <h2>{{ 'product.info.title' | translate }}</h2>
+    <div class="d-flex flex-column">
+        <div class="category d-flex flex-lg-row flex-column row-gap-3 row-gap-lg-0 pt-0">
+            <strong>{{ 'product.info.availability' | translate }}</strong>
+            <div class="d-flex">
+                <span class="me-1"
+                    *ngFor="let day of productGeneralInfo.weekDays;let last = last">{{ week[day] | translate }}<ng-container
+                        *ngIf="!last">,&nbsp;</ng-container>
+                </span>
+            </div>
+        </div>
+        <div class="category d-flex flex-lg-row flex-column row-gap-3 row-gap-lg-0">
+            <strong>{{ 'product.info.duration' | translate }}</strong>
+            <div class="d-flex" *ngIf="productGeneralInfo.duration">
+                <span>{{convertTimeToCustomFormat(productGeneralInfo.duration)}}</span>
+            </div>
+        </div>
+        <div class="category d-flex flex-lg-row flex-column row-gap-3 row-gap-lg-0">
+            <strong>{{ 'product.info.languages' | translate }}</strong>
+            <div class="d-flex" *ngIf="productGeneralInfo.languages">
+                <span class="me-1" *ngFor="let language of productGeneralInfo.languages.slice(0,3); let last = last">
+                    {{language.name}}<ng-container *ngIf="!last">,&nbsp;
+                    </ng-container>
+                </span>
+            </div>
+        </div>
+        <div class="category d-flex flex-lg-row flex-column row-gap-3 row-gap-lg-0">
+            <strong>{{ 'product.info.includes' | translate }}</strong>
+            <ul>
+                <li *ngFor="let includes of productGeneralInfo.includes">
+                    {{includes}}
+                </li>
+            </ul>
+        </div>
+        <div class="category d-flex flex-lg-row flex-column row-gap-3 row-gap-lg-0 pb-0">
+            <strong>{{ 'product.info.notIncludes' | translate }}</strong>
+            <ul>
+                <li *ngFor="let notIncludes of productGeneralInfo.notIncludes">
+                    {{notIncludes}}
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- <ul>
+        <li>
+            Por favor, usar ropa y calzado cómodos y recomendamos traer alguna ropa de abrigo ligera o un corta vientos
+        </li>
+        <li>
+            Por favor, avisar de intolerancias alimenticias
+        </li>
+    </ul> -->
+</div>

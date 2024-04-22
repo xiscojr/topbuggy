@@ -1,0 +1,16 @@
+<div id="product-inlcuded" class="row mb-4">
+    <div class="highlight-container">
+        <img src="/assets/images/included.svg" alt="Time activity">
+        <h3 class="title my-3">{{ 'product.includedComponent.yes' | translate }}</h3>
+        <ul class="info-list">
+            <li *ngFor="let item of productIncludes">{{item}}</li>
+        </ul>
+    </div>
+    <div class="highlight-container">
+        <img src="/assets/images/not-included.svg" alt="Time activity">
+        <h3 class="title my-3">{{ 'product.includedComponent.no' | translate }}</h3>
+        <ul class="info-list">
+            <li *ngFor="let item of productNotIncludes">{{item}}</li>
+        </ul>
+    </div>
+</div>

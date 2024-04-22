@@ -1,0 +1,38 @@
+@import '../../../../styles/scss/theme.scss';
+
+.price {
+    padding-top: 30px;
+    padding-bottom: 28px;
+
+    h2{
+        margin-bottom: 20px;
+    }
+
+    .fee {
+        padding-top: 21px;
+        padding-bottom: 21px;
+
+        strong{
+            width: 200px;
+        }
+
+        span:not(.number),
+        strong {
+            color: $black;
+        }
+    }
+
+    .fee:not(:last-child) {
+        border-bottom: 1px dashed $darkcolor;
+    }
+
+    .number {
+        color: $maincolor;
+    }
+
+    .flat-price{
+        color: $maincolor;
+        font-size: 32px;
+    }
+
+}

@@ -1,0 +1,74 @@
+<div class="container">
+    <div class="header">
+        <h3 style="text-transform: uppercase;">{{ 'faq.title' | translate }}</h3>
+        <img class="img-divider mt-3" src="../../../assets/images/question.svg" alt="Question mark">
+    </div>
+    <div class="questions">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item selected-tab" (click)="changeParentClass($event)">
+                <h3 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        {{ 'faq.question1.title' | translate }}
+                    </button>
+                </h3>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <span>
+                            {{ 'faq.question1.answer' | translate }}
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item" (click)="changeParentClass($event)">
+                <h3 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        {{ 'faq.question2.title' | translate }}
+                    </button>
+                </h3>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <span>
+                            {{ 'faq.question2.answer' | translate }}
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item" (click)="changeParentClass($event)">
+                <h3 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        {{ 'faq.question3.title' | translate }}
+                    </button>
+                </h3>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <span>
+                            {{ 'faq.question3.answer' | translate }}
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item" (click)="changeParentClass($event)">
+                <h3 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        {{ 'faq.question4.title' | translate }}
+                    </button>
+                </h3>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <span>
+                            {{ 'faq.question4.answer' | translate }}
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

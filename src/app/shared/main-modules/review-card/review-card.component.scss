@@ -1,0 +1,115 @@
+@import '../../../../styles/scss/theme.scss';
+
+.review-card {
+    width: 306px;
+    height: 480px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 28px;
+    border: 4px solid $ligter-blue;
+    text-align: center;
+
+    .header {
+        .initial {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 80px;
+            height: 80px;
+            color: $white;
+            border-radius: 100%;
+            padding: 5px 0;
+            margin-right: .75rem;
+        }
+
+        strong {
+            color: $maincolor;
+            line-height: 19px;
+            margin-top: 20px;
+        }
+
+        .channel {
+            color: $white;
+            font-size: 12px;
+        }
+
+        .date {
+            font-size: 12px;
+            color: $white;
+            line-height: 20px;
+        }
+
+    }
+
+    .title {
+        line-height: 19px;
+
+        strong {
+            color: $darkcolor;
+        }
+    }
+
+    .stars {
+        span {
+            color: $maincolor;
+        }
+    }
+
+    .review-content {
+        span {
+            display: -webkit-box;
+            -webkit-line-clamp: 9; // <- you can change rows number
+            -webkit-box-orient: vertical;
+            width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: $white;
+        }
+
+        span.scrollable {
+            height: 216px;
+            display: block;
+            overflow-y: scroll;
+        }
+
+        span.scrollable::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            background-color: #F5F5F5;
+        }
+
+        span.scrollable::-webkit-scrollbar {
+            width: 12px;
+            background-color: #F5F5F5;
+        }
+
+        span.scrollable::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            background-color: $maincolor;
+        }
+    }
+
+    .read-more{
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        right: 0;
+        color: $maincolor;
+    }
+
+    a {
+        font-family: $primary-font;
+        position: absolute;
+        bottom: 0;
+        padding-bottom: 20px;
+        text-decoration: none;
+        color: $maincolor;
+        cursor: pointer;
+    }
+}
+@media (max-width:400px) {
+    .review-card {
+        width: 250px;
+        
+    }
+}

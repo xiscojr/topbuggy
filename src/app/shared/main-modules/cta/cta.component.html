@@ -1,0 +1,30 @@
+<div class="cta-container" id="products">
+    <div class="d-lg-flex justify-content-end p-0 j h-100">
+        <div class="text-container">
+            <div class="d-flex flex-column align-items-center justify-content-around h-100">
+                <h2 class="title">{{ makerExperiences[0].name | translate }}</h2>
+                <div class="subline">
+                    <div>
+                        <img class="me-2" src="../../../assets/images/Locator.svg" alt="Ubicación">
+                        <span>{{makerExperiences[0]?.location.name}}</span>
+                    </div>
+                    <div>
+                        <img class="me-2" src="../../../assets/images/Persons.svg" alt="Persons">
+                        <span>1-{{makerExperiences[0].persons}}{{ 'cta.riders' | translate }}</span>
+                    </div>
+
+                    <div>
+                        <img class="me-2" src="../../../assets/images/Time.svg" alt="Duración">
+                        <span>{{makerExperiences[0].duration}}{{ 'cta.book' | translate }}</span>
+                    </div>
+                    
+                </div>
+                <p class="px-4">{{ makerExperiences[0].description | translate }}</p>
+                <div class="bottom-line d-flex align-items-center pb-0">
+                    <p class="prod-price">{{makerExperiences[0].price}}€</p>
+                    <button class="button-reserve text-center" [routerLink]="'product/' + makerExperiences[0].slug">{{ 'cta.book' | translate }}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

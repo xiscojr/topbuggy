@@ -1,0 +1,119 @@
+@import '../../../../styles/scss/theme.scss';
+
+.container {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+    @media(max-width:992px) {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    h2 {
+        margin-bottom: 70px;
+        margin-top: 40px;
+    }
+
+    .inner-container {
+
+        //max-width: 1076px;
+        //width: 70%;
+        margin: 10px;
+
+
+        .contact-info {
+            max-width: 500px;
+            margin-bottom: 3rem;
+
+            span {
+                color: $white;
+
+            }
+
+            span[class^='bdb-'] {
+                font-size: 30px;
+            }
+
+            strong {
+                color: $maincolor;
+                font-family: $primary-font;
+            }
+        }
+
+        #adress {
+            font-weight: bold;
+        }
+
+        .contact.subtitle {
+            color: $maincolor;
+
+        }
+
+        .text {
+            margin-bottom: 40px;
+            color: $maincolor !important;
+        }
+
+        .contact-form {
+            max-width: 655px;
+            background: #756955;
+            border-radius: 30px;
+            padding: 40px;
+            width: 636px;
+            height: 650px;
+
+            h2 {
+                color: #ffd000;
+                font-size: 31px;
+                margin-top: 0%;
+            }
+
+
+            label {
+                color: $white;
+                margin-bottom: 10px;
+                font-size: 14px;
+                font-family: FiraSans-Regular;
+            }
+
+            textarea {
+                border: 0px solid $black;
+                border-radius: 0px;
+                background-color: #F6F6F6;
+
+                min-height: 30px;
+            }
+
+            button {
+                background-image: url("/assets/images/Pincelada.svg");
+                background-color: transparent;
+                background-repeat: no-repeat;
+                background-size: cover;
+                max-width: 300px;
+                width: 250px;
+                padding-bottom: .7em;
+                height: 48px;
+                color: $black;
+                border: none;
+                margin-top: 20px;
+
+            }
+
+            .alert {
+                font-size: .75rem;
+                color: red;
+            }
+
+            .success {
+                color: #eae1e1;
+            }
+        }
+    }
+}
+@media (max-width: 766px) {
+    .contact-info {
+        margin-top: 83px !important;
+    }
+}

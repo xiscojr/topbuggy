@@ -1,0 +1,68 @@
+<div class="product-card" *ngIf="experience">
+    <!-- <div class="product-card-image" [routerLink]="getProductRoute()"> -->
+    <div class="product-card-image" (click)="getProductRoute()">
+        <img [src]="'https://venntur.com/assets/experience/files/' + experience.mediaExperiences[0].contentUrl"
+            alt="Imagen de la experiencia">
+    </div>
+    <!-- <div class="mobile-drag d-lg-none" (click)="expandCard($event)"></div> -->
+    <!-- <div class="product-card-footer" [routerLink]="getProductRoute()"> -->
+    <div class="product-card-footer" (click)="getProductRoute()">
+        <div class="mb-4">
+            <div class="d-flex flex-column align-items-center mb-2">
+                <h3>
+                    {{experience.name}}
+                </h3>
+                <!-- <small>
+                    {{ experience.totalReviews }} {{ 'productCard.reviews' | translate }}
+                </small> -->
+            </div>
+            <!-- <div class=""> -->
+            <!-- <span class="text-end mb-1">{{ 'productCard.since' | translate }}</span> -->
+            <div class="subline d-flex justify-content-between">
+                <div>
+                    <img class="me-2" src="../../../assets/images/Locator.svg" alt="Location">
+                    <span>{{experience.location.name}}</span>
+                </div>
+                <div>
+                    <img class="me-2" src="../../../assets/images/Persons.svg" alt="Persons">
+                    <span>1-{{experience.persons}}{{ 'productCard.riders' | translate }}</span>
+                </div>
+
+                <div>
+                    <img class="me-2" src="../../../assets/images/Time.svg" alt="Clock">
+                    <span>{{experience.duration}} hours tour</span>
+                </div>
+
+            </div>
+            <!-- <strong class="card-price">{{experience.price}}€</strong> -->
+            <!-- </div> -->
+        </div>
+        <!-- <div class="d-flex flex-column row-gap-1 mb-3">
+
+            <div class="icon-parent d-flex align-items-center"><span class="bdb-calendar"></span><span
+                    *ngFor="let day of experience.weekDays;let last = last">{{ week[day] | translate }}<ng-container
+                        *ngIf="!last">,&nbsp;</ng-container>
+                </span></div>
+            <div class="icon-parent d-flex align-items-center"><span
+                    class="bdb-clock"></span><span>{{convertTimeToCustomFormat(experience.duration)}}</span></div>
+            <div class="icon-parent d-flex align-items-center"><span class="bdb-comment"></span><span
+                    *ngFor="let language of experience.languages.slice(0,3); let last = last">
+                    {{language.name}}<ng-container *ngIf="!last">,&nbsp;
+                    </ng-container>
+                </span>
+                <span *ngIf="experience.languages.length > 3"> ...</span>
+            </div>
+        </div> -->
+        <div>
+            <span class="description">
+                {{experience.description}}
+            </span>
+        </div>
+        <div class="d-flex justify-content-between align-items-center mt-3">
+            <strong class="card-price">{{experience.price}}€</strong>
+            <button class="button-reserve">
+                <span>{{ 'productCard.booking' | translate }}</span>
+            </button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,95 @@
+<div class="container">
+
+    <div class="inner-container d-lg-flex justify-content-between">
+        
+        <div class="contact-info d-flex flex-column me-5">
+            <h2>{{ 'contact.connect' | translate }}</h2>
+            <span class="text">{{ 'contact.subtitle' | translate }}</span>
+            <div class="d-flex flex-column row-gap-2 mb-5">
+            
+                <!--<strong>
+                    {{ 'contact.connect' | translate }}
+                </strong>-->
+                
+                <span id="adress"> {{ 'contact.adress' | translate }}</span>
+                <span>
+                    Calle Plasencia, 152, 38639, Santa Cruz de Tenerife
+                </span>
+                <span>
+                    T: <a href="tel:+34692608035" style="color: white; text-decoration: none;"> (+34) 692 60 80 35</a>
+                </span>
+                <span>
+                    E: <a href="mailto:info@topbuggyadventure.com" style="color: white; text-decoration: none;"> info&#64;topbuggyadventure.com</a>
+                </span>
+            </div>
+            <div class="d-flex flex-column row-gap-2 column-gap-2">
+                <strong>
+                    {{ 'contact.follow' | translate }}
+                </strong>
+                <div id="socialmedia" class="d-flex column-gap-3">
+                    <a href="https://www.facebook.com/TopBuggyAdventureTenerife/" target="_blank">
+                        <span class="bdb-facebook-logo"></span>
+                    </a>
+                    <a href="https://www.instagram.com/topbuggyadventure/" target="_blank">    
+                    <span class="bdb-instagram-logo"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="contact-form w-100">
+            <!--cuadro formulario-->
+            <form [formGroup]="contactForm" (submit)="sendContactEmail()">
+                <h2>{{ 'contact.title' | translate }}</h2>
+                <div class="d-flex flex-column mb-3">
+                <!-- <label for="name">{{ 'contact.form.name' | translate }}</label> -->
+                    <input autocomplete="name" type="text" formControlName="name" placeholder="{{ 'contact.form.name' | translate }}" id="name" name="name">
+                    <div *ngIf="name?.invalid && (name?.dirty || name?.touched)" class="alert alert-danger p-0 m-0">
+                        <div *ngIf="name?.errors?.['required']">
+                            {{ 'contact.form.validation' | translate }}
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column mb-3">
+                    <!-- <label for="phone">{{ 'contact.form.phone' | translate }}</label>-->
+                    <input autocomplete="phone" type="phone" formControlName="phone" placeholder="{{ 'contact.form.phone' | translate }}" id="phone">
+                    <div *ngIf="phone?.invalid && (phone?.dirty || phone?.touched)" class="alert alert-danger p-0 m-0">
+                        <div>
+                            {{ 'contact.form.validation' | translate }}
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column mb-3">
+                    <!--<label for="email">{{ 'contact.form.email' | translate }}</label>-->
+                    <input autocomplete="email" type="email" formControlName="email" placeholder="{{ 'contact.form.email' | translate }}" id="email">
+                    <div *ngIf="email?.invalid && (email?.dirty || email?.touched)" class="alert alert-danger p-0 m-0">
+                        <div>
+                            {{ 'contact.form.validation' | translate }}
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column mb-3">
+                    <!--<label for="message">{{ 'contact.form.message' | translate }}</label>-->
+                    <textarea autocomplete="message" rows="6" cols="50" formControlName="message" placeholder="{{ 'contact.form.message' | translate }}"
+                        id="message" ></textarea>
+                    <div *ngIf="message?.invalid && (message?.dirty || message?.touched)" class="alert alert-danger p-0 m-0">
+                        <div *ngIf="message?.errors?.['required']">
+                            {{ 'contact.form.validation' | translate }}
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex align-items-center">
+                        
+                        <input class="me-2" type="checkbox" id="privacy" formControlName="privacy">
+                        <label class="m-0" for="privacy">{{ 'contact.form.privacy' | translate }}</label>
+                    </div>
+                    <div class="d-flex justify-content-end"><button type="submit">{{ 'contact.form.send' | translate }}</button> </div>
+                    
+                </div>
+                <div *ngIf="contactRequestSuccess" class="success">
+                    {{ 'contact.form.success' | translate }}
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

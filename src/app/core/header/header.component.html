@@ -1,0 +1,54 @@
+<div class="header-background position-absolute w-100">
+    <div class="container position-relative z-2 p-0">
+        <div class="header d-flex align-items-center justify-content-between justify-content-md-start">
+            <img class="me-5" src="../../../assets/images/LOGO-TOP-BUGGY.webp" style="fill: black" alt="Logo Top Buggy"
+                [routerLink]="'/' + (this.language != 'es' ? this.language : '')">
+            <nav class="d-none menu d-md-flex align-items-center column-gap-5">
+                <a [routerLink]="'/' + this.language">{{ 'header.home' | translate }}</a>
+                <a [href]="this.language+'#product'" style="text-transform: uppercase;">{{ 'header.book' | translate
+                    }}</a>
+                <a [routerLink]="this.language + '/contact'">{{ 'header.contact' | translate }}</a>
+                <div class="d-flex align-items-center column-gap-1">
+                    <span>|</span>
+                    <a (click)="useLang('es')" [routerLink]="'es/' + langRoute">ES</a>
+                    <span>|</span>
+                    <a (click)="useLang('en')" [routerLink]="'en/' + langRoute">EN</a>
+                    <span>|</span>
+                    <a (click)="useLang('de')" [routerLink]="'de/' + langRoute">DE</a>
+                    <span>|</span>
+                </div>
+            </nav>
+            <div class="d-md-none">
+                <nav class="navbar navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark pb-5">
+                <div class="menu d-flex flex-column align-items-center row-gap-4">
+                    <a routerLink="">{{ 'header.home' | translate }}</a>
+                    <a [href]="this.language+'#product'" style="text-transform: uppercase;">{{ 'header.book' |
+                        translate }}</a>
+                    <a [routerLink]="this.language + '/contact'">{{ 'header.contact' | translate }}</a>
+                    <div class="d-flex align-items-center column-gap-1">
+                        <span>|</span>
+                        <a (click)="useLang('es')" [routerLink]="'es/' + langRoute">ES</a>
+                        <span>|</span>
+                        <a (click)="useLang('en')" [routerLink]="'en/' + langRoute">EN</a>
+                        <span>|</span>
+                        <a (click)="useLang('de')" [routerLink]="'de/' + langRoute">DE</a>
+                        <span>|</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <img class="position-absolute z-1 top-0" src="../../../assets/images/Barra.svg" alt="Barra"> -->
+</div>

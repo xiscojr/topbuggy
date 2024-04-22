@@ -1,0 +1,39 @@
+<ng-container *ngIf="product">
+    <!-- <app-product-header-image [productImages]="productImages"></app-product-header-image> -->
+    <app-product-header-image></app-product-header-image>
+    
+    <div class="container position-relative">
+        <div class="row">
+            <div class="product-info col-lg-8 d-flex flex-column">
+                <h1>{{product.name}}</h1>
+                <app-product-description [productDescription]="product.descriptionExtended"></app-product-description>
+                <app-product-highlights [product]="product"></app-product-highlights>
+                <app-additional-info [productMoreInfo]="product.moreInfo"></app-additional-info>
+                <app-product-included [productIncludes]="product.includes" [productNotIncludes]="product.notIncludes"></app-product-included>
+
+            </div>
+            <div class="col-lg-4">
+                <app-product-booking></app-product-booking>
+            </div>
+        </div>
+    </div>
+
+    <div class="mb-5">
+        <app-product-image-carusel [productImages]="productImages"></app-product-image-carusel>
+    </div>
+
+    <!-- <div class="container">
+        <app-divider></app-divider>
+        <app-product-price [productPriceInfo]="productPriceInfo"></app-product-price>
+        <app-divider></app-divider>
+        <app-product-why-us [productWhyUs]="product.whyUs"></app-product-why-us>
+        <app-divider></app-divider>
+        <app-product-general-info [productGeneralInfo]="productGeneralInfo"></app-product-general-info>
+        <app-product-important-info [productCarryInfo]="product.carryInfo"></app-product-important-info>
+    </div> -->
+    <app-divider *ngIf="product.reviews.length > 0"></app-divider>
+    
+    <div style="margin-bottom: 100px;">
+        <app-reviews [receivedData]="product['@id']" style="margin-bottom: 100px;"></app-reviews>
+    </div>
+</ng-container>

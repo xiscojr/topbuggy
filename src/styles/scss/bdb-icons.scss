@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'bdb-icons';
+    src: url('/assets/fonts/bdb-icons/bdb-icons.eot?r38nde');
+    src: url('/assets/fonts/bdb-icons/bdb-icons.eot?r38nde#iefix') format('embedded-opentype'),
+        url('/assets/fonts/bdb-icons/bdb-icons.ttf?r38nde') format('truetype'),
+        url('/assets/fonts/bdb-icons/bdb-icons.woff?r38nde') format('woff'),
+        url('/assets/fonts/bdb-icons/bdb-icons.svg?r38nde#bdb-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="bdb-"],
+[class*=" bdb-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'bdb-icons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.bdb-location:before {
+    content: "\e900";
+    color: $lightcolor;
+}
+
+.bdb-calendar:before {
+    content: "\e901";
+    color: $lightcolor;
+}
+
+.bdb-clock:before {
+    content: "\e902";
+    color: $lightcolor;
+}
+
+.bdb-comment:before {
+    content: "\e903";
+    color: $lightcolor;
+}
+
+.bdb-star-full:before {
+    content: "\e904";
+    color: $maincolor;
+}
+
+.bdb-star:before {
+    content: "\e905";
+    color: $maincolor;
+}
+
+.bdb-accordion-opened:before {
+    content: "\e906";
+    color: $darkcolor;
+}
+
+.bdb-accordion-closed:before {
+    content: "\e907";
+    color: $darkcolor;
+}
+
+.bdb-facebook-logo:before {
+    content: "\e90f";
+    color: $maincolor;
+}
+
+.bdb-facebook-logo-inverted:before {
+    content: "\e90c";
+    color: $black;
+}
+
+.bdb-instagram-logo:before {
+    content: "\e90e";
+    color: $maincolor;
+}
+
+.bdb-instagram-logo-inverted:before {
+    content: "\e90a";
+    color: $black;
+}
+
+.bdb-x-logo:before {
+    content: "\e908";
+    color: $maincolor;
+}
+
+.bdb-x-logo-inverted:before {
+    content: "\e90b";
+    color: $black;
+}
+
+.bdb-youtube-logo:before {
+    content: "\e90d";
+    color: $maincolor;
+}
+
+.bdb-youtube-logo-inverted:before {
+    content: "\e909";
+    color: $black;
+}

@@ -1,0 +1,203 @@
+@import '../../../../styles/scss/theme.scss';
+
+strong {
+    font-family: $secondary-font;
+    color: $white;
+    margin-top: 20px;
+}
+
+.product-card {
+    max-width: 368px;
+    // height: 416px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    // display: flex;
+    justify-content: center;
+}
+
+@media(min-width:992px) {
+    .product-card {
+        width: 416px;
+        // height: 416px;
+        position: relative;
+        margin: .75rem auto;
+    }
+}
+
+
+.product-card-footer {
+    // position: absolute;
+    bottom: 0;
+    // height: 80px;
+    height:fit-content;
+    width: 100%;
+    z-index: 1;
+    // background-color: $darkcolor;
+    padding: 10px 5px;
+
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    overflow: hidden;
+    transition: 1.5s;
+
+    strong {
+        color: $maincolor;
+        line-height: 19px;
+        font-family: $primary-font;
+    }
+
+    strong:not(.card-price) {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow-y: hidden;
+    }
+
+    small {
+        color: $lightcolor;
+    }
+
+    .card-price {
+        color: $maincolor;
+        font-size: 32px;
+    }
+
+    .subline{
+        padding: 0px 20px;
+
+        span{
+            font-size: 14px;
+            font-weight: bold;
+        }
+    }
+
+    .icon-parent {
+        span[class^='bdb-'] {
+            width: 12px;
+            margin-right: 1rem;
+            font-size: 12px;
+        }
+    }
+
+    .description {
+        height: 190px;
+        display: -webkit-box;
+        -webkit-line-clamp: 7;
+        /* Number of lines to show */
+        -webkit-box-orient: vertical;
+        overflow-y: auto;
+        text-align: left;
+    }
+
+    .button-reserve {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("/assets/images/Pincelada.svg");
+        background-color: transparent;
+        background-repeat: no-repeat;
+
+        padding: 1rem;
+        margin-left: 1rem;
+        height: 3rem;
+        width: 17rem;
+        max-width: unset;
+        color: $black;
+
+        font-weight: bold;
+        font-style: italic;
+
+        background-size: 210px;
+        background-position-y: center;
+        background-position-x: center;
+
+        text-transform: uppercase;
+
+        span {
+            margin-bottom: 12px;
+            color: $black;
+            font-family: $primary-font;
+            margin-right: -25px;
+        }
+    }
+
+}
+
+@media(max-width:992px) {
+    .mobile-drag {
+        position: absolute;
+        bottom: 80px;
+
+        height: 20px;
+        width: 80px;
+
+        display: flex;
+        align-items: center;
+
+        border: 7px solid $darkcolor;
+        background-color: $lightcolor;
+
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        padding-left: .5rem;
+        padding-right: .5rem;
+
+        transition: height 0.5s;
+        -webkit-transition: height 0.5s;
+        overflow: hidden;
+        transition: 1.5s;
+    }
+
+    .mobile-drag.expanded {
+        bottom: 416px;
+        opacity: 0.9;
+    }
+}
+
+
+
+// @media(min-width:992px) {
+
+//     .product-card-footer:hover,
+//     .product-card-image:hover~.product-card-footer {
+//         height: 416px;
+//         opacity: 0.9;
+//     }
+// }
+
+@media(max-width: 992px) {
+    .product-card-footer.expanded {
+        height: 416px;
+        opacity: 0.9;
+    }
+}
+
+.product-card-image {
+
+    height: 100%;
+
+    img {
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media (max-width:400px) {
+    .d-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-price {
+        margin-bottom: 13px;
+    }
+
+    .description {
+        text-align: justify;
+    }
+}

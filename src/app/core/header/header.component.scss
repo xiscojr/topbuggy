@@ -1,0 +1,97 @@
+@import '../../../styles/scss/theme.scss';
+
+strong {
+    font-family: $secondary-font;
+    color: $white;
+}
+
+.header-background {
+    background-color: transparent;
+    overflow-x: clip;
+    background-image: url("/assets/images/Barra.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 2rem;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+    color: $black !important;
+    cursor: pointer;
+    font-family: $primary-font;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.header {
+
+    img {
+        cursor: pointer;
+    }
+
+    span {
+        color: $black;
+        font-family: kanit;
+    }
+
+    button {
+        width: auto;
+        color: var(--bs-navbar-color);
+        background-color: transparent;
+    }
+
+    button:focus:not(:focus-visible) {
+        outline: 0;
+        box-shadow: none;
+    }
+    
+    .navbar-toggler-icon{
+        background-image: url("/assets/images/menu-button.svg");
+    }
+
+    height: 80px;
+}
+
+#navbarToggleExternalContent{
+    span {
+        color: $black;
+    }
+}
+
+@media(max-width:768px) {
+
+    .header {
+        min-height: 60px;
+        height: auto;
+    }
+
+}
+
+@media(max-width:400px) {
+    .row-gap-4 {
+        row-gap: 0.5rem !important;
+    }
+
+    .header-background {
+        padding-bottom: 11px!important;
+    }
+}
+
+.button-reserve {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000 !important;
+    cursor: pointer;
+    font-family: "Kanit", sans-serif !important;
+    font-style: italic;
+    font-size: 20px;
+    
+}
+
+@media(max-width:768px) {
+    .row-gap-4 {
+        row-gap: 0.5rem !important;
+    }
+}
+

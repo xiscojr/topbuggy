@@ -1,0 +1,33 @@
+@import '../../../../styles/scss/theme.scss';
+
+#additional-info{
+    
+    .title{
+        color: $maincolor;
+        text-transform: uppercase;
+    }
+    .info-list{
+        color: white;
+
+        li{
+            line-height: 2rem;
+            &::marker {
+                color: $maincolor; /* Change this to your desired marker color */
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 281px) {
+    .title {
+        text-align: center;
+    };
+}
+
+@media (max-width: 780px) {
+    .title {
+    display: flex;
+    justify-content: center;
+    }
+}

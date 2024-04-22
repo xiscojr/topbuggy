@@ -1,0 +1,123 @@
+////////// COLORS Bootstrap //////////
+$white: #FFFFFF;
+$black: #333333;
+$lightcolor: #AFD1F5;
+$maincolor: #F2C77C;
+$darkcolor: #292219;
+$black: #000;
+$body-bg-color : #292219;
+$ligter-blue: #756955;
+
+$primary: $darkcolor;
+$secondary: $maincolor;
+
+$theme-colors: (
+    "primary": $maincolor,
+    "secondary": $darkcolor
+);
+
+////////// Fonts //////////
+@font-face {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Avenir LT Std 65 Medium'),
+        url('/assets/fonts/Avenir/Avenir LT Std 65 Medium/Avenir LT Std 65 Medium.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Avenir LT Std 95 Black'),
+        url('/assets/fonts/Avenir/Avenir LT Std 95 Black/Avenir LT Std 95 Black.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat-Regular'),
+        url('/assets/fonts/Montserrat/Montserrat-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Montserrat-Black'),
+        url('/assets/fonts/Montserrat/Montserrat-Black.ttf') format('ttf');
+}
+
+$primary-font: 'Kanit', sans-serif;
+$secondary-font: 'Fira Sans', serif;
+
+html{
+    overflow-x: clip;
+}
+.body-class{
+    background-color: $body-bg-color;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: $primary-font;
+    font-size: 46px;
+    font-style: italic;
+    font-weight: 800;
+    color: $white;
+}
+
+h2 {
+    font-family: $primary-font;
+    font-weight: 400;
+    color: $maincolor !important;
+}
+
+h3 {
+    font-family: $primary-font;
+    font-size: 32px;
+    font-weight: bold;
+    color: $maincolor !important;
+}
+
+h4 {
+    font-family: $primary-font;
+    font-size: 1rem;
+    font-weight: 500;
+    color: $black;
+}
+
+p {
+    font-family: $secondary-font;
+    color: $white;
+
+    .accent {
+        color: $maincolor;
+    }
+}
+
+span {
+    font-family: $secondary-font;
+    color: $white;
+}
+
+small {
+    color: $white;
+}
+
+a {
+    font-family: $secondary-font;
+    
+}
+
+button {
+    font-family: $primary-font;
+    max-width: 200px;
+    width: 200px;
+    height: 30px;
+    background-color: $maincolor;
+    color: $white;
+    border-radius: 14px;
+    border: none;
+}

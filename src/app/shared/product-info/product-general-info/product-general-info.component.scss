@@ -1,0 +1,48 @@
+@import '../../../../styles/scss/theme.scss';
+
+.general-info {
+    padding-top: 30px;
+    padding-bottom: 28px;
+
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    .category {
+        padding-top: 21px;
+        padding-bottom: 21px;
+
+        strong {
+            width: 200px;
+        }
+
+        span:not(.number),
+        strong {
+            color: $black;
+        }
+
+        ul {
+            padding-left: 1.25rem;
+            list-style: none;
+
+            li::before {
+                color: $maincolor;
+                content: "\2022";
+                font-size: 1.25rem;
+                font-weight: bold;
+                display: inline-block;
+                width: 1em;
+                margin-left: -1em;
+            }
+        }
+    }
+
+    .category:not(:last-child) {
+        border-bottom: 1px dashed $darkcolor;
+    }
+
+    .number {
+        color: $maincolor;
+    }
+
+}

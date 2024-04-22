@@ -1,0 +1,223 @@
+{
+    "header": {
+        "home": "HOME",
+        "contact": "KONTAKT",
+        "book": "PRODUKTE"
+    },
+    "footer": {
+        "home": "HOME",
+        "contact": "KONTAKT",
+        "follow": "FOLLOW US",
+        "siteMap": "WEBSITENKARTE",
+        "privacy": "Datenschutzbestimmungen",
+        "conditions": "Bedingungen und Konditionen",
+        "cookies": "Cookies-Politik"
+    },
+    "hero": {
+        "title": "ENTDECKEN SIE DAS ABENTEUER",
+        "title2": "MIT TOP BUGGY",
+        "subtitle": "Entdecken Sie Teneriffa auf einzigartige Weise mit unseren aufregenden Buggy-Ausflügen. Erkunden Sie Abenteuer- und Spaßstrecken, die sich Ihren Vorlieben anpassen. Genießen Sie eine Tour zum Teide, eine Küstenfahrt oder einen Sonnenuntergangs-Aussichtspunkt. Wählen Sie aus unseren vielfältigen Touren. Buchen Sie jetzt Ihr Buggy-Erlebnis auf Teneriffa!",
+        "book": "JETZT BUCHEN"
+    },
+    "products": {
+        "title": "ERFAHRUNGEN VON BEDEBE",
+        "subtitle": "Genießen Sie den Zauber Mallorcas durch unsere speziell für Sie konzipierten Erlebnisse in Begleitung unserer ortskundigen Führer."
+    },
+    "productCard": {
+        "since": "Von",
+        "reviews": "bewertungen",
+        "booking": "Reservieren",
+        "riders": " pax"
+    },
+    "info": {
+        "mainTitle": "Wichtige Informationen, die zu beachten sind",
+        "title1": "Vergessen Sie nicht",
+        "subtitle1": "Bringen Sie warme Kleidung mit, obwohl das Unternehmen eine für Sie bereithält. Es wäre ratsam, bequeme, geschlossene Kleidung und Schuhe für jede unserer Touren zu tragen. ",
+        "title2": "Erinnern Sie sich an",
+        "subtitle2": "Wenn Sie den Buggy fahren, müssen Sie am Tag des Ausflugs im Besitz eines gültigen Führerscheins sein, sonst kann die Aktivität nicht stattfinden.",
+        "title3": "Sorgt für die Umwelt",
+        "subtitle3": "Wenn wir eine Route durch eine natürliche Umgebung machen, müssen wir uns der Auswirkungen bewusst sein, die wir verursachen können, und wir sollten versuchen, die Umgebung so zu hinterlassen, wie wir sie vorgefunden haben."
+    },
+    "cta": {
+        "title": "DAS TOP-BUGGY-ERLEBNIS",
+        "subtitle": "Die Landschaft Teneriffas ist wirklich atemberaubend, von den goldenen Sandstränden bis zu den majestätischen Gipfeln des Teide-Nationalparks, der den höchsten Berg Spaniens beherbergt.",
+        "book": "BUCH",
+        "riders": " Fahrer",
+        "time": "Stunden"
+    },
+    "about": {
+        "title": "ÜBER UNS",
+        "subtitle": "Teneriffa mit seiner faszinierenden, jahrhundertealten Geschichte hat sich zu einem bekannten Touristenziel entwickelt. Teneriffa ist nicht nur ein Reiseziel, sondern ein Ort voller Geschichte, Kultur und natürlicher Schönheit, der denjenigen, die das Glück haben, seine Wunder zu erkunden, unvergessliche Erlebnisse garantiert.",
+        "paragraph1": "Wir sind ein Familienunternehmen, das im Herzen Teneriffas verwurzelt ist und sich der Aufgabe verschrieben hat, aufregende Erlebnisse zur Erkundung der Insel anzubieten. Entdecken Sie Teneriffa durch unsere aufregenden Routen und Buggyfahrten, die für zwei und vier Personen ausgelegt sind. Unsere Leidenschaft ist es, Ihnen die Höhepunkte unserer Umgebung zu zeigen und Ihnen ein unvergessliches Erlebnis zu bieten, während Sie die atemberaubenden Orte der Insel erkunden. Tauchen Sie ein in die Schönheit der Landschaften und nutzen Sie das angenehme Klima, das dieses einzigartige Reiseziel zu bieten hat. Entdecken Sie den Teide, die Strände und die Aussichtspunkte. Erkunden Sie mit uns den Süden Teneriffas und erleben Sie unvergessliche Momente!",
+        "paragraph2": "Von Top Buggy aus werden Sie den Charme der Insel Teneriffa entdecken. Die Landschaften Teneriffas sind wirklich atemberaubend, von den goldenen Sandstränden bis zu den majestätischen Gipfeln des Teide-Nationalparks, der den höchsten Berg Spaniens beherbergt.",
+        "contact": "Kontaktiere uns"
+    },
+    "reviewcard": {
+        "info": "Nutzer-Feedback von ",
+        "read": "Mehr lesen"
+    },
+    "reviews": {
+        "title": "GETEILTE ERFAHRUNGEN",
+        "subtitle": "von unseren Forschern"
+    },
+    "faq": {
+        "title": "HÄUFIG GESTELLTE FRAGEN",
+        "subtitle": "Dies sind die am häufigsten gestellten Fragen unserer Kunden",
+        "question1": {
+            "title": "Wie lange dauert die Buggy-Tour?",
+            "answer": "Unsere Buggy-Tour auf dem Teide dauert etwa 4 Stunden. Genug Zeit, um den Nervenkitzel des Buggyfahrens zu erleben und eine atemberaubende Umgebung zu genießen und zu erkunden."
+        },
+        "question2": {
+            "title": "Wie lauten die Stornierungsbedingungen von Top Buggy Adventure?",
+            "answer": "Bei Top Buggy Adventure wissen wir, dass sich Ihre Pläne ändern können. Daher sind Stornierungen oder Änderungen bis zu 48 Stunden im Voraus kostenlos und Sie erhalten eine volle Rückerstattung."
+        },
+        "question3": {
+            "title": "Was ist das Mindestalter für die Teilnahme an unseren Buggy-Touren?",
+            "answer": "Das Mindestalter für das Führen eines Buggys beträgt 21 Jahre und ein gültiger Führerschein der Klasse B, der mindestens 3 Jahre alt sein muss, ist erforderlich. Wenn Sie als Begleitperson an unserer Tour teilnehmen, ist das Mindestalter 7 Jahre."
+        },
+        "question4": {
+            "title": "Sind die Abholung und der Rücktransport zum Hotel im Preis inbegriffen?",
+            "answer": "Ja, im Preis inbegriffen sind die Abholung und der Rücktransport zu den Hotels im Süden der Insel. Es ist jedoch fakultativ, dass die Kunden zum Treffpunkt fahren, sofern sie mindestens 30 Minuten vor Beginn der Tour eintreffen."
+        }
+    },
+    "product": {
+        "price": "PREIS",
+        "whyUs": "WARUM DIESE TOUR WÄHLEN?",
+        "description": "BESCHREIBUNG",
+        "info": {
+            "title": "ALLGEMEINE INFORMATIONEN",
+            "availability": "Verfügbarkeit",
+            "duration": "Dauer",
+            "languages": "Sprachen",
+            "includes": "Enthält",
+            "notIncludes": "Sie umfasst nicht"
+        },
+        "highlightsComponents": {
+            "hours": " STD",
+            "tour": "Straßentour",
+            "single": "Einzelquad",
+            "double": "Doppelquad"
+        },
+        "includedComponent": {
+            "yes": "Inbegriffen",
+            "no": "Nicht enthalten"
+        },
+        "carryInfo": "ZU BERÜCKSICHTIGENDE INFORMATIONEN"
+    },
+    "contact": {
+        "title": "KONTAKT US",
+        "subtitle": "Zögern Sie nicht, uns alle Fragen zu stellen, die Sie haben. Unser Team hilft Ihnen gerne bei allem, was Sie brauchen, und beantwortet alle Ihre Fragen.",
+        "connect": "VERBINDEN SIE SICH MIT UNS",
+        "follow": "FOLLOW US",
+        "form": {
+            "adress": "Ein Kleid",
+            "name": "Name",
+            "phone": "Telefon",
+            "email": "E-Mail",
+            "message": "Nachricht",
+            "privacy": "Datenschutzbestimmungen",
+            "send": "SENDEN",
+            "success": "Nachricht gesendet!",
+            "validation": "Das Feld ist obligatorisch und muss gültig sein."
+        }
+    },
+    "legal": {
+        "conditions": "Geschäftsbedingungen",
+        "modified": "Dieses Dokument wurde zuletzt am geändert ",
+        "date": "1. Mai 2018",
+        "read": "Bitte lesen Sie diese Nutzungsbedingungen, bevor Sie diese Website nutzen, die Eigentum von Touradvisor DMC SLU ist und von diesem betrieben wird. Dieses Dokument legt die rechtsverbindlichen Bedingungen für die Nutzung dieser Website fest.",
+        "use": "Durch die Nutzung oder den Zugriff auf diese Website, das Anzeigen oder Durchsuchen ihrer Inhalte oder das Hinzufügen eigener Inhalte zur Website erklären Sie sich mit diesen Nutzungsbedingungen einverstanden.",
+        "property": "Geistiges Eigentum",
+        "webcontent": "Diese Website und ihr gesamter Originalinhalt sind ausschließliches Eigentum ihres Eigentümers und Betreibers und daher vollständig durch entsprechende internationale Urheberrechte und andere Gesetze zum Schutz des geistigen Eigentums geschützt. Alle Inhalte Dritter sind deren Eigentum und ihre Nutzung und ihr Schutz unterliegen deren Allgemeinen Geschäftsbedingungen.",
+        "termination": "Beendigung",
+        "right": "Wir behalten uns das Recht vor, den Zugriff auf diese Website ohne vorherige Ankündigung zu sperren.",
+        "external": "Links zu anderen Websites",
+        "links": "Unsere Website enthält eine Reihe von Links zu anderen Websites und Online-Ressourcen, die nicht unser Eigentum sind oder von uns kontrolliert werden. Wir haben keine Kontrolle über den Inhalt oder die allgemeinen Praktiken dieser Websites oder Dienste Dritter und können daher keine Verantwortung dafür übernehmen. Wir empfehlen Ihnen daher, die gesamten Geschäftsbedingungen und Datenschutzrichtlinien aller Websites zu lesen, die Sie besuchen, indem Sie einem auf unserer Website veröffentlichten Link folgen.",
+        "legislation": "Gesetzgebung",
+        "agreement": "Diese Vereinbarung unterliegt der in Spanien geltenden Gesetzgebung.",
+        "consent": "Zustimmung",
+        "accept": "Durch die Nutzung unserer Website stimmen Sie den Nutzungsbedingungen unserer Website zu.",
+        "modification": "Änderungen",
+        "reserved": "Wir behalten uns das Recht vor, diese Nutzungsbedingungen jederzeit zu ändern. Wir werden dies tun, indem wir die aktualisierten Bedingungen auf der Website veröffentlichen und Sie darauf aufmerksam machen. Ihre Entscheidung, die Website nach der Durchführung dieser Änderungen weiterhin zu besuchen und zu nutzen, stellt Ihre formelle Annahme der neuen Nutzungsbedingungen dar. Daher bitten wir Sie, dieses Dokument gelegentlich durchzulesen. Wenn Sie mit einer Bestimmung oder Änderungen, die wir in diesem Dokument vornehmen, nicht einverstanden sind, bitten und empfehlen wir Ihnen, die Website nicht zu nutzen oder weiterhin darauf zuzugreifen.",
+        "contact": "So erreichen Sie uns",
+        "questions": "Wenn Sie Fragen zu diesen Nutzungsbedingungen haben, können Sie uns über die in unserem Kontaktbereich verfügbaren Mechanismen kontaktieren."
+    },
+    "cookies": {
+        "policy": "Cookie-Richtlinie",
+        "modified": "Dieses Dokument wurde zuletzt am geändert ",
+        "date": "1. Mai 2018",
+        "description": "Ein Cookie ist eine Datei, die auf Ihren Computer heruntergeladen wird, wenn Sie auf bestimmte Webseiten zugreifen. Cookies ermöglichen es einer Website unter anderem, Informationen über die Surfgewohnheiten eines Benutzers oder seiner Geräte zu speichern und abzurufen. Abhängig von den darin enthaltenen Informationen und der Art und Weise, wie Sie Ihre Geräte verwenden, können sie zur Wiedererkennung des Benutzers verwendet werden. Der Browser des Benutzers speichert Cookies nur während der aktuellen Sitzung auf der Festplatte, beansprucht dabei nur minimalen Speicherplatz und schadet dem Computer nicht. Cookies enthalten keine spezifischen personenbezogenen Daten und werden zumeist nach Ende der Browsersitzung von der Festplatte gelöscht (sog. Sitzungscookies).",
+        "browser": "Die meisten Browser akzeptieren standardmäßig Cookies und erlauben oder verhindern unabhängig davon in den Sicherheitseinstellungen temporäre oder gespeicherte Cookies.",
+        "acceptance": "Ohne Ihre ausdrückliche Einwilligung (durch Aktivierung von Cookies in Ihrem Browser) werden die in den Cookies gespeicherten Daten nicht mit Ihren bei der Registrierung oder beim Kauf angegebenen personenbezogenen Daten verknüpft.",
+        "types": "Arten von Cookies",
+        "technical": "Technische Cookies",
+        "description1": "Dabei handelt es sich um solche, die es dem Benutzer ermöglichen, durch eine Webseite, Plattform oder Anwendung zu navigieren und die verschiedenen dort vorhandenen Optionen oder Dienste zu nutzen, wie beispielsweise die Steuerung des Datenverkehrs und der Datenkommunikation, die Identifizierung der Sitzung und den Zugriff auf Teile mit eingeschränktem Zugriff , sich die Elemente merken, aus denen eine Bestellung besteht, den Kaufvorgang einer Bestellung durchführen, den Antrag auf Registrierung oder Teilnahme an einer Veranstaltung stellen, Sicherheitselemente während der Navigation verwenden, Inhalte für die Verbreitung von Videos oder Ton speichern oder Inhalte über soziale Netzwerke teilen Netzwerke.",
+        "personalization": "Personalisierungs-Cookies:",
+        "description2": "Dabei handelt es sich um solche, die dem Benutzer den Zugriff auf den Dienst mit einigen allgemeinen Merkmalen ermöglichen, die auf der Grundlage einer Reihe von Kriterien auf dem Endgerät des Benutzers vordefiniert sind, wie beispielsweise die Sprache, die Art des Browsers, über den auf den Dienst zugegriffen wird, und das Gebietsschema, von dem aus wo Sie auf den Dienst zugreifen usw.",
+        "analysis": "Analyse-Cookies",
+        "description3": "Dabei handelt es sich um solche, die es uns, unabhängig davon, ob sie von uns oder von Dritten verarbeitet werden, ermöglichen, die Anzahl der Nutzer zu quantifizieren und so die Messung und statistische Analyse der Nutzung des angebotenen Dienstes durch die Nutzer durchzuführen. Dazu wird Ihre Navigation auf unserer Website analysiert, um das Angebot der von uns angebotenen Produkte oder Dienstleistungen zu verbessern.",
+        "advertising": "Werbe-Cookies:",
+        "description4": "Dabei handelt es sich um solche, die es uns, unabhängig davon, ob sie von uns oder von Dritten verarbeitet werden, ermöglichen, das Angebot von Werbeflächen auf der Website so effizient wie möglich zu verwalten und den Inhalt der Werbung an den Inhalt des angeforderten Dienstes oder die erfolgte Nutzung anzupassen . unserer Website. Zu diesem Zweck können wir Ihr Surfverhalten im Internet analysieren und Ihnen Werbung im Zusammenhang mit Ihrem Browserprofil zeigen.",
+        "behavioral": "Verhaltensbezogene Werbe-Cookies:",
+        "description5": "Dabei handelt es sich um solche, die eine möglichst effiziente Verwaltung der Werbeflächen ermöglichen, die der Herausgeber gegebenenfalls in eine Webseite, Anwendung oder Plattform eingefügt hat, von der aus der angeforderte Dienst bereitgestellt wird. Diese Cookies speichern Informationen über das Nutzerverhalten, die durch kontinuierliche Beobachtung ihrer Surfgewohnheiten gewonnen werden, was die Entwicklung eines spezifischen Profils ermöglicht, um darauf basierende Werbung anzuzeigen.",
+        "thirdparty": "Cookies von Drittanbietern:",
+        "description6": "Die Website kann Dienste Dritter nutzen, die im Auftrag dieser Website Informationen zu statistischen Zwecken über die Nutzung der Website durch den Benutzer und zur Bereitstellung anderer Dienste im Zusammenhang mit der Aktivität dieser Website und anderen Internetaktivitäten sammeln Dienstleistungen.",
+        "used": "Verwendete Cookies von Drittanbietern",
+        "analytics": "Diese Website nutzt insbesondere Google Analytics, einen Webanalysedienst der Google Inc. mit Sitz in den USA und Hauptsitz in 1600 Amphitheatre Parkway, Mountain View, 94043, Kalifornien. Um diese Dienste bereitzustellen, verwenden sie Cookies, die Informationen sammeln, einschließlich der IP-Adresse des Nutzers, die von Google gemäß den auf seiner Website festgelegten Bedingungen übertragen, verarbeitet und gespeichert werden, einschließlich der möglichen Übermittlung dieser Informationen an Dritte aus rechtlichen Gründen erforderlich ist oder wenn diese Dritten die Informationen im Auftrag von Google verarbeiten.",
+        "consent": "Zustimmung",
+        "agree": "Der Nutzer akzeptiert durch die Nutzung dieser Website ausdrücklich die Verarbeitung der erhobenen Daten in der oben genannten Art und Weise und zu den oben genannten Zwecken. Sie erkennen außerdem an, dass Sie sich der Möglichkeit bewusst sind, die Verarbeitung solcher Daten oder Informationen abzulehnen, indem Sie die Verwendung von Cookies ablehnen, indem Sie die entsprechenden Einstellungen für diesen Zweck in Ihrem Browser auswählen. Diese Option zum Blockieren von Cookies in Ihrem Browser ist jedoch möglicherweise nicht möglich Ihnen dies zu ermöglichen. die vollständige Nutzung aller Funktionalitäten der Website.",
+        "management": "Cookie-Verwaltung",
+        "permit": "Sie können die auf Ihrem Computer installierten Cookies zulassen, blockieren oder löschen, indem Sie die auf Ihrem Computer installierten Browseroptionen konfigurieren:",
+        "modifications": "Änderungen",
+        "update": "Wenn wir uns entscheiden, unsere Cookie-Richtlinie zu ändern, werden wir das Änderungsdatum in diesem Dokument aktualisieren.",
+        "contact": "Wie Sie uns kontaktieren können",
+        "questions": "Wenn Sie Fragen zu dieser Cookie-Richtlinie haben, können Sie uns über die in unserem Kontaktbereich verfügbaren Mechanismen kontaktieren."
+    },
+    "privacy": {
+        "policy": "Datenschutzrichtlinie",
+        "modified": "Dieses Dokument wurde zuletzt am geändert ",
+        "date": "1. Mai 2018",
+        "personal": "Through this website, personal data necessary for the management and maintenance of some of our services is collected. Without prejudice to the purposes indicated in each case, said information will be kept and managed with due confidentiality, applying the computer security measures established in the applicable legislation to prevent access or improper use of your data, its manipulation, deterioration or loss. At any time you can exercise your rights of access, rectification or cancellation in relation to said data, directing your request to the address of the owner of the files. You can find forms for exercising your rights on the website of the ",
+        "protection": "Datenschutzbehörde.",
+        "file": "Ihre Daten werden in eine Datei aufgenommen, die im Allgemeinen Datenschutzregister eingetragen ist. Die Verantwortung liegt bei Touradvisor DMC SLU mit der Adresse Ctra. Valdemossa km7,4 – Parc Bit, Ed. Disset, pl",
+        "data": "Ihre Daten werden verwendet, um mit Ihnen Kontakt aufzunehmen, wenn Sie dies wünschen, eine Informationsanfrage zu stellen oder eine der angebotenen Dienstleistungen zu reservieren. Bei diesem Vorgang kann es zu einer Weitergabe Ihrer Daten an Dritte kommen, die im unmittelbaren Zusammenhang mit der Erbringung der Dienstleistung stehen. Eine solche Datenweitergabe erfolgt nur, soweit sie unbedingt erforderlich ist.",
+        "whatinfo": "Welche Informationen sammeln wir?",
+        "userinfo": "Wir erfassen Informationen von Ihnen, wenn Sie sich auf unserer Website registrieren oder unseren Newsletter abonnieren. Wenn Sie eine Bestellung aufgeben oder sich auf unserer Website registrieren, werden Sie gegebenenfalls aufgefordert, Ihren Namen, Ihre E-Mail-Adresse oder Telefonnummer einzugeben. Es besteht jedoch die Möglichkeit, unsere Seite anonym zu besuchen.",
+        "use": "Wofür verwenden wir Ihre Daten??",
+        "infostatement": "Die Informationen, die wir von Ihnen sammeln, können auf eine der folgenden Arten verwendet werden:",
+        "title1": "So personalisieren Sie Ihr Erlebnis:",
+        "explanation1": "Ihre Angaben helfen uns, besser auf Ihre individuellen Bedürfnisse einzugehen.",
+        "title2": "Um unsere Website zu verbessern:",
+        "explanation2": "Basierend auf den Informationen und Rückmeldungen, die wir von Ihnen erhalten, verbessern wir unser Website-Angebot kontinuierlich.",
+        "title3": "Um den Kundenservice zu verbessern:",
+        "explanation3": "Ihre Informationen helfen uns, effektiver auf Kundendienstanfragen und Supportanfragen zu reagieren.",
+        "title4": "Um regelmäßig E-Mails zu versenden.",
+        "explanation4": "Die E-Mail-Adresse, die Sie für die Bestellabwicklung angeben, kann zum Senden von Informationen und Aktualisierungen im Zusammenhang mit Ihrer Bestellung sowie zum Erhalt von Unternehmensnachrichten, Aktualisierungen, zugehörigen Produkt- oder Serviceinformationen usw. von Zeit zu Zeit verwendet werden.",
+        "note": "Hinweis: Wenn Sie zu irgendeinem Zeitpunkt keine weiteren E-Mails mehr erhalten möchten, finden Sie unten in jeder E-Mail Anweisungen zum Abbestellen.",
+        "protect": "Wie schützen wir Ihre Daten?",
+        "security": "In Übereinstimmung mit geltendem Recht ergreifen wir verschiedene Sicherheitsmaßnahmen, um die Integrität Ihrer personenbezogenen Daten zu wahren, wenn Sie Ihre personenbezogenen Daten eingeben, übermitteln oder darauf zugreifen.",
+        "read": "Lesen Sie unsere ",
+        "cookiepolicy": "Cookies policy",
+        "where": ", sofern deren Verwendung auf unserer Website begründet ist.",
+        "disclose": "Geben wir Informationen an Dritte weiter?",
+        "text": "Wir verkaufen Ihre personenbezogenen Daten nicht, handeln nicht mit ihnen und übermitteln sie nicht an Dritte. Hierzu zählen nicht vertrauenswürdige Dritte, die uns beim Betrieb unserer Website, der Verwaltung unseres Geschäfts oder der Erbringung einer Dienstleistung für Sie unterstützen, sofern diese Parteien sich zur Wahrung der Vertraulichkeit dieser Informationen verpflichten. Wir können Ihre Daten auch dann freigeben, wenn wir glauben, dass dies zur Einhaltung des Gesetzes, zur Durchsetzung unserer Website-Richtlinien oder zum Schutz unseres Eigentums, unserer Sicherheit oder Rechte oder der Rechte Dritter erforderlich ist. Allerdings können nicht persönlich identifizierbare Informationen über Ihren Besuch an Dritte für Marketing-, Werbe- oder andere Zwecke weitergegeben werden.",
+        "title5": "Nur online verfügbare Datenschutzrichtlinie",
+        "explanation5": "Diese Online-Datenschutzrichtlinie gilt nur für Informationen, die über unsere Website gesammelt werden, und nicht für Informationen, die auf andere Weise gesammelt werden.",
+        "terms": "Geschäftsbedingungen",
+        "visit": "Besuchen Sie unsere Rubrik",
+        "link": "Geschäftsbedingungen",
+        "info": ", in dem die Nutzung, Haftungsausschlüsse und Haftungsbeschränkungen festgelegt sind, die die Nutzung unserer Website regeln.",
+        "modifications": "Änderungen",
+        "change": "Wenn wir beschließen, unsere Datenschutzrichtlinie zu ändern, aktualisieren wir das Änderungsdatum dieses Dokuments",
+        "contact": "So erreichen Sie uns",
+        "questions": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, können Sie uns über die in unserem Kontaktbereich verfügbaren Mechanismen kontaktieren"
+    },
+    "Every day": "Jeden Tag",
+    "Monday": "Montag",
+    "Tuesday": "Dienstag",
+    "Wednesday": "Mittwoch",
+    "Thursday": "Donnerstag",
+    "Friday": "Freitag",
+    "Saturday": "Samstag",
+    "Sunday": "Sonntag"
+}

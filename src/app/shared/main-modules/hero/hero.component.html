@@ -1,0 +1,17 @@
+<div class="hero">
+    <div class="position-relative h-100">
+        <div class="container">
+            <div class="hero-content d-flex flex-column">
+                <h1>
+                    <div class="title">{{ 'hero.title' | translate }}</div>
+                    <div class="title2 transparent-text">
+                        {{ 'hero.title2' | translate }}
+                    </div>
+                </h1>
+                <p>{{ 'hero.subtitle' | translate }}</p>
+                <button class="button-reserve" (click)="goToProduct()"><span>{{ 'hero.book' | translate }}</span></button>
+            </div>
+        </div>
+        <img class="barra-inferior position-absolute z-1" src="../../../assets/images/Low-bar.svg" alt="Barra inferior">
+    </div>
+</div>

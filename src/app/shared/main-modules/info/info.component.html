@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="">
+        <div class="header text-center my-5">
+            <h3 style="text-transform: uppercase;">{{ 'info.mainTitle' | translate }}</h3>
+            <img class="img-divider mt-3" src="../../../assets/images/exclamation.svg" alt="Exclamación">
+        </div>
+        <div class="info-cards">
+            <div *ngFor="let position of [1,2,3]" class="">
+                <app-info-card [childPosition]="position"></app-info-card>
+            </div>
+        </div>
+        
+        <!-- <div class="text-container">
+            <h2>
+                {{ 'info.title' | translate }}
+            </h2>
+            <span>
+                {{ 'info.subtitle' | translate }}
+            </span>
+        </div> -->
+    </div>
+
+</div>

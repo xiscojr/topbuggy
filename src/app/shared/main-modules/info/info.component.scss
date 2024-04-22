@@ -1,0 +1,63 @@
+@import '../../../../styles/scss/theme.scss';
+
+.container {
+    margin-bottom: 100px;
+
+    .image-container {
+        position: relative;
+        display: inline-block;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .info-cards{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    @media(max-width:992px) {
+        .info-cards{
+            display: block;
+        }
+    }
+
+    .image-container::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: .75rem;
+        width: 100px;
+        height: 100%;
+        border-top: 416px solid transparent;
+        border-right: 80px solid $white;
+        z-index: 1;
+        overflow: hidden;
+    }
+
+    @media(max-width:992px) {
+        .image-container {
+            margin-bottom: 1.5rem;
+        }
+
+        .image-container::before {
+            display: none;
+        }
+    }
+
+    .text-container {
+        margin-bottom: 1rem;
+
+        span {
+            color: $black;
+        }
+    }
+
+    @media(min-width:992px) {
+        .text-container {
+            max-height: 416px;
+        }
+    }
+
+}

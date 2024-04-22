@@ -1,0 +1,23 @@
+@import '../../../../styles/scss/theme.scss';
+
+.description {
+    padding-top: 30px;
+    padding-bottom: 28px;
+    span {
+        color: $black;
+    }
+}
+
+strong {
+    color: black !important;
+}
+
+@media (max-width:281px) {
+    h3 {
+        text-align: center;
+    }
+
+    span {
+        text-align: justify
+    }
+}

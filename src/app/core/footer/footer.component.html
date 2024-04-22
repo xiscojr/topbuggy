@@ -1,0 +1,66 @@
+<div class="footer-background position-relative">
+    <div class="container">
+        <div class="footer">
+            <img src="../../../assets/images/LOGO-TOP-BUGGY.webp" alt="Logo Top Buggy" class="mb-4 logo-footer">
+            <div class="row text-center">
+                <div class="col-md-3 d-flex flex-column row-gap-3 mb-md-0 mb-3">
+                    <strong>
+                        {{ 'footer.contact' | translate }}
+                    </strong>
+                    <span>
+                        T: <a href="tel:+34692608035">(+34 692 608 035)</a>
+                    </span>
+                    <span>
+                        E:<a href="mailto:info@topbuggyadventure.com"> info&#64;topbuggyadventure.com</a> 
+                    </span>
+                </div>
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <div class="d-flex flex-column row-gap-2">
+                        <strong>
+                            {{ 'footer.follow' | translate }}
+                        </strong>
+                        <div class="d-flex justify-content-center column-gap-3">
+                            <a href="https://www.facebook.com/TopBuggyAdventureTenerife/" target="_blank">
+                                <span class="bdb-facebook-logo-inverted"></span>
+                            </a>
+                            <a href="https://www.instagram.com/topbuggyadventure/" target="_blank">
+                                <span class="bdb-instagram-logo-inverted"></span>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex flex-column row-gap-3">
+                    <strong>
+                        {{ 'footer.siteMap' | translate }}
+                    </strong>
+                    <a routerLink="">
+                        {{ 'footer.home' | translate }}
+                    </a>
+                    <a [routerLink]="currentLanguage + '/contact'">
+                        {{ 'footer.contact' | translate }}
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="flex-container">
+            <!-- <a class="flex-item">Aviso legal</a> -->
+            <!-- <a class="flex-item">Accesibilidad</a> -->
+            <a class="flex-item" [routerLink]="currentLanguage + '/privacy'">{{ 'footer.privacy' | translate }}</a>
+            <a class="flex-item" [routerLink]="currentLanguage + '/conditions'">{{ 'footer.conditions' | translate
+                }}</a>
+            <a class="flex-item" [routerLink]="currentLanguage + '/cookies'">{{ 'footer.cookies' | translate }}</a>
+            <a class="flex-item" href="https://web-preview-b.aititubi.es" target="_blank">{{ 'footer.siteMap' |
+                translate }}</a>
+        </div>
+    </div>
+    <!-- <img class="img-divider mt-3" src="../../../assets/images/Maxibar.svg" alt="Maxibar"> -->
+</div>
+<div class="subfooter-background">
+    <div class="container">
+        <div class="subfooter d-flex justify-content-between align-items-center">
+            <span>© Copyright 2024 Top Buggy Adventure. All rights reserved</span>
+        <a href="https://venntur.com/" target="_blank"><span>Powered by Venntur</span></a>
+        </div>
+    </div>
+</div>
